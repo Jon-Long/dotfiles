@@ -1,0 +1,11 @@
+# Run the help center server
+alias server="bundle exec jekyll serve --detach"
+
+# Open the directory in sublime
+alias subl="sublime ."
+
+# Open jekyll in chrome
+alias preview="open http://localhost:4000" 
+
+# Start help center workflow
+alias hc="cd ~/Sites/help.envoy.co && server && subl && preview"
